@@ -5,7 +5,7 @@ from constants import REMOVAL_MESSAGE_SUBJECT, REMOVAL_COMMENT, REMOVAL_MESSAGE
 
 import praw
 
-SUB_NAME = os.environ["SUB_NAME"]
+SUBREDDIT_NAME = os.environ["SUB_NAME"]
 MIN_IMAGE_WIDTH_PX = 4000  # 470 DPI
 NUM_POSTS_TO_PROCESS = 10
 
@@ -64,10 +64,10 @@ def reject(submission: praw.models.Submission, image_width: int) -> None:
     )
     submission.mod.lock()
     removal_comment_with_author = REMOVAL_COMMENT.format(
-        author=submission.author, sub=SUB_NAME, dpi=dpi_value
+        author=submission.author, sub=SUBREDDIT_NAME, dpi=dpi_value
     )
     removal_message_with_subreddit_name = REMOVAL_MESSAGE.format(
-        sub=SUB_NAME, dpi=dpi_value
+        sub=SUBREDDIT_NAME, dpi=dpi_value
     )
     submission.mod.send_removal_message(
         type="public_as_subreddit",
@@ -112,7 +112,7 @@ def process(submission: praw.models.Submission) -> None:
 if __name__ == "__main__":
     setup_logger()
     reddit = create_reddit_instance()
-    subreddit = reddit.subreddit(SUB_NAME)
+    subreddit = reddit.subreddit(SUBREDDIT_NAME)
 
     for submission in subreddit.new(limit=NUM_POSTS_TO_PROCESS):
         process(submission)
