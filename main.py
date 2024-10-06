@@ -6,7 +6,7 @@ from constants import REMOVAL_MESSAGE_SUBJECT, REMOVAL_COMMENT, REMOVAL_MESSAGE
 import praw
 
 SUBREDDIT_NAME = os.environ["SUB_NAME"]
-MIN_IMAGE_WIDTH_PX = 4000  # 470 DPI
+MIN_IMAGE_WIDTH_PIXELS = 4000  # 470 DPI
 NUM_POSTS_TO_PROCESS = 10
 
 
@@ -102,7 +102,7 @@ def process(submission: praw.models.Submission) -> None:
             submission.author,
         )
 
-    elif image_width < MIN_IMAGE_WIDTH_PX:
+    elif image_width < MIN_IMAGE_WIDTH_PIXELS:
         reject(submission, image_width)
 
     else:
