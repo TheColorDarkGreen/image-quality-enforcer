@@ -14,3 +14,4 @@
 [10-13 07:47] APPROVE, 1g2kkuj, 5100, BlackDChase
 [10-13 04:42] APPROVE, 1g2tv0p, 4958, Fantastic-Bridge-937
 [10-13 10:29] REJECT, 1g31ksn, 1226, prfessionalthrowaway
+[10-14 05:50] REJECT, 1g397uh, 850, Particular_Prompt107
