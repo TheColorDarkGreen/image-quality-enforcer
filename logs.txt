@@ -21,3 +21,4 @@
 [10-15 04:33] APPROVE, 1g4byal, 5100, K1ingsJ
 [10-16 07:21] REJECT, 1g57nky, 1700, kkkkmat
 [10-17 05:04] APPROVE, 1g5vt1z, 5100, Dry_Account5656
+[10-18 08:59] REJECT, 1g6skvt, 1130, ResponsibleWork3846
