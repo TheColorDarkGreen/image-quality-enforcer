@@ -29,3 +29,4 @@
 [11-04 11:48] APPROVE, 1gjt1i8, 5100, struggling20
 [11-05 03:48] APPROVE, 1gjxv8d, 4961, REKTR3X99
 [11-05 05:37] APPROVE, 1gkccwo, 4961, mile-high-guy
+[11-06 08:48] REJECT, 1gl8p7t, 850, TelevisionSoft9164
