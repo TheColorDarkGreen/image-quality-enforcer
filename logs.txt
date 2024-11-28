@@ -59,3 +59,4 @@
 [11-26 02:44] APPROVE, 1h0dhdh, 5100, padrekid1
 [11-27 05:58] REJECT, 1h1ag7x, 850, Big_Local5252
 [11-28 02:38] UNABLE TO EXTRACT WIDTH FROM BODY TEXT, 1h1lhrm, astronights
+[11-28 11:26] REJECT, 1h1txo5, 1170, iFishFr0g
