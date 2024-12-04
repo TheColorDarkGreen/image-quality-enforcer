@@ -6,7 +6,7 @@ REMOVAL_COMMENT = """
 # Image Resolution Detected: {dpi} DPI
 \n
 ---
-**Hi /u/{author}, please follow the instructions below and submit a higher quality image in a new post.**  
+**Hi u/{author}, please follow the instructions below and submit a higher quality image in a new post.**  
 \n
 ---
 \n
