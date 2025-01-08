@@ -40,3 +40,4 @@
 [01-08 03:42] REJECT, 1hwajxj, 1296, swordofpersia
 [01-08 03:47] APPROVE, 1hwansd, 5100, swordofpersia
 [01-08 04:58] REJECT, 1hwowct, 783, WoodpeckerWild5412
+[01-08 08:42] REJECT, 1hwud0g, 687, ActuatorOutside5256
