@@ -54,3 +54,4 @@
 [01-12 05:37] APPROVE, 1hzs0gu, 5100, Cool-Foundation
 [01-13 07:43] APPROVE, 1i0mmw5, 2550, retrospct
 [01-14 06:49] APPROVE, 1i1d9bc, 5100, egotismtomax
+[01-14 08:45] REJECT, 1i1g093, 1275, Powerful_Web9426
