@@ -81,3 +81,5 @@
 [01-27 04:58] APPROVE, 1ib0b8l, 5100, Aqua314
 [01-27 10:47] APPROVE, 1ibmjn3, 1700, zhoposran4ik
 [01-28 05:27] APPROVE, 1ibuj4o, 5100, Small-Arm-2751
+[01-28 05:33] Retrying due to 500 status: POST https://oauth.reddit.com/api/v1/modactions/removal_link_message
+[01-28 05:33] REJECT, 1ic72bx, 1538, Accomplished_Guide59
