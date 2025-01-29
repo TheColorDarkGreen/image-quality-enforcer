@@ -84,3 +84,4 @@
 [01-28 05:33] Retrying due to 500 status: POST https://oauth.reddit.com/api/v1/modactions/removal_link_message
 [01-28 05:33] REJECT, 1ic72bx, 1538, Accomplished_Guide59
 [01-29 03:49] APPROVE, 1icwu5e, 5100, Hey_its_a_genius
+[01-29 06:46] REJECT, 1id17fh, 737, Frosty_Tumbleweed135
