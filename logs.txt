@@ -118,3 +118,4 @@
 [02-19 09:42] REJECT, 1it1qin, 1199, True_AlphaOG
 [02-19 05:10] APPROVE, 1itank6, 5100, chistannuhguyin
 [02-20 05:44] APPROVE, 1itrdrr, 5100, GOATGAMER999
+[02-20 01:47] Retrying due to ConnectTimeout(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f4904642710>, 'Connection to www.reddit.com timed out. (connect timeout=16.0)'))")) status: GET https://oauth.reddit.com/r/EngineeringResumes/new
