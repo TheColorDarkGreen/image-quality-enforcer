@@ -137,3 +137,5 @@
 [03-03 05:59] REJECT, 1j2outd, 1152, MutedPepper6305
 [03-03 07:49] APPROVE, 1j2rl5g, 5100, DjDan10
 [03-03 11:08] APPROVE, 1j2wafz, 1700, comfortcube
+[03-04 08:55] Retrying due to 502 status: GET https://oauth.reddit.com/r/EngineeringResumes/new
+[03-04 08:55] Retrying due to 502 status: GET https://oauth.reddit.com/r/EngineeringResumes/new
