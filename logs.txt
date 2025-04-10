@@ -189,3 +189,4 @@
 [04-05 03:34] APPROVE, 1js640l, 2479, Seaweed_Widef
 [04-08 10:47] APPROVE, 1juqw6r, 5100, Tbetcha
 [04-10 02:49] APPROVE, 1jvzrhd, 5100, CuxienusMupima
+[04-10 10:54] REJECT, 1jwb8y0, 828, Willing_Loan_7444
