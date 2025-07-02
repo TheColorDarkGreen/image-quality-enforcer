@@ -12,7 +12,7 @@ REMOVAL_COMMENT = """
 \n
 1. Export your resume as a [**PDF file**](https://www.adobe.com/uk/acrobat/resources/google-doc-to-pdf.html).  
 \n
-2. Convert it to a **[600 DPI](https://www.adobe.com/uk/creativecloud/photography/discover/dots-per-inch-dpi-resolution.html) PNG file** using https://www.cleverpdf.com/pdf-to-images. https://imgur.com/RxxYFQe     
+2. Convert it to a **[600 DPI](https://www.adobe.com/uk/creativecloud/photography/discover/dots-per-inch-dpi-resolution.html) PNG file** using https://www.cleverpdf.com/pdf-to-images. https://imgur.com/R0ps1Gr     
 \n
 3. On **[DESKTOP (NEW.REDDIT)](https://new.reddit.com/r/{sub}/submit)**, insert the PNG file into a **[TEXT SUBMISSION](https://imgur.com/8iik4YP)**.  
 \n
@@ -40,7 +40,7 @@ REMOVAL_MESSAGE = """
 \n
 1. Export your resume as a [**PDF file**](https://www.adobe.com/uk/acrobat/resources/google-doc-to-pdf.html).  
 \n
-2. Convert it to a **[600 DPI](https://www.adobe.com/uk/creativecloud/photography/discover/dots-per-inch-dpi-resolution.html) PNG file** using https://www.cleverpdf.com/pdf-to-images. https://imgur.com/RxxYFQe     
+2. Convert it to a **[600 DPI](https://www.adobe.com/uk/creativecloud/photography/discover/dots-per-inch-dpi-resolution.html) PNG file** using https://www.cleverpdf.com/pdf-to-images. https://imgur.com/R0ps1Gr     
 \n
 3. On **[DESKTOP (NEW.REDDIT)](https://new.reddit.com/r/{sub}/submit)**, insert the PNG file into a **[TEXT SUBMISSION](https://imgur.com/8iik4YP)**.  
 \n
