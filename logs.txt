@@ -352,3 +352,4 @@
 [07-15 11:00] REJECT, 1m0wk6t, 1368, byiir
 [07-16 02:41] APPROVE, 1m1eclh, 5100, lightyagami_-x
 [07-16 03:51] Retrying due to 500 status: GET https://oauth.reddit.com/r/EngineeringResumes/new
+[07-17 09:48] REJECT, 1m2kf50, 655, FightThroughTheStorm
