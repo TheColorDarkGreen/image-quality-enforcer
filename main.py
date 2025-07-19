@@ -6,6 +6,7 @@ from constants import REMOVAL_MESSAGE_SUBJECT, REMOVAL_COMMENT, REMOVAL_MESSAGE
 import praw
 
 SUBREDDIT_NAME = os.environ["SUB_NAME"]
+INCHES_ON_PAGE = 8.5
 MIN_IMAGE_WIDTH_PIXELS = 1650  # 1650/8.5 ~= 194 DPI
 NUM_POSTS_TO_PROCESS = 10
 
@@ -51,7 +52,7 @@ def extract_width(selftext: str) -> int:
 
 
 def convert_to_dpi(image_width: int) -> int:
-    return round(image_width / 8.5)
+    return round(image_width / INCHES_ON_PAGE)
 
 
 def reject(submission: praw.models.Submission, image_width: int) -> None:
