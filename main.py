@@ -45,7 +45,7 @@ def extract_width(selftext: str) -> int:
     try:
         extracted_string = selftext.split("width=")[1].split("&")[0]
         width = int(extracted_string)
-        return int(width)
+        return width
 
     except IndexError:
         return -1
