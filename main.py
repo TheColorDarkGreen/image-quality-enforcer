@@ -41,7 +41,7 @@ def create_reddit_instance() -> praw.Reddit:
     return reddit
 
 
-def extract_width(selftext: str) -> int:
+def extract_image_width_from_bodytext(selftext: str) -> int:
     try:
         extracted_string = selftext.split("width=")[1].split("&")[0]
         width = int(extracted_string)
@@ -51,12 +51,12 @@ def extract_width(selftext: str) -> int:
         return -1
 
 
-def convert_to_dpi(image_width: int) -> int:
+def calculate_image_dpi(image_width: int) -> int:
     return round(image_width / INCHES_ON_PAGE)
 
 
-def reject(submission: praw.models.Submission, image_width: int) -> None:
-    dpi_value = convert_to_dpi(image_width)
+def reject_submission(submission: praw.models.Submission, image_width: int) -> None:
+    dpi_value = calculate_image_dpi(image_width)
     submission.mod.remove(spam=False)
     submission.mod.flair(
         text="Post Removed: Low Quality Image",
@@ -82,19 +82,19 @@ def reject(submission: praw.models.Submission, image_width: int) -> None:
     logging.info("REJECT, %s, %d, %s", submission.id, image_width, submission.author)
 
 
-def approve(submission: praw.models.Submission, image_width: int) -> None:
+def approve_submission(submission: praw.models.Submission, image_width: int) -> None:
     submission.mod.approve()
     logging.info("APPROVE, %s, %d, %s", submission.id, image_width, submission.author)
 
 
-def process(submission: praw.models.Submission) -> None:
+def process_submission(submission: praw.models.Submission) -> None:
     if submission.approved:
         return
 
     if submission.link_flair_text in {"Question", "Success Story!", "Meta"}:
         return
 
-    image_width = extract_width(submission.selftext)
+    image_width = extract_image_width_from_bodytext(submission.selftext)
 
     if image_width == -1:
         logging.error(
@@ -104,10 +104,10 @@ def process(submission: praw.models.Submission) -> None:
         )
 
     elif image_width < MIN_IMAGE_WIDTH_PIXELS:
-        reject(submission, image_width)
+        reject_submission(submission, image_width)
 
     else:
-        approve(submission, image_width)
+        approve_submission(submission, image_width)
 
 
 if __name__ == "__main__":
@@ -116,4 +116,4 @@ if __name__ == "__main__":
     subreddit = reddit.subreddit(SUBREDDIT_NAME)
 
     for submission in subreddit.new(limit=NUM_POSTS_TO_PROCESS):
-        process(submission)
+        process_submission(submission)
