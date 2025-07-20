@@ -6,8 +6,8 @@ from constants import REMOVAL_MESSAGE_SUBJECT, REMOVAL_COMMENT, REMOVAL_MESSAGE
 import praw
 
 SUBREDDIT_NAME = os.environ["SUB_NAME"]
-INCHES_ON_PAGE = 8.5
-MIN_IMAGE_WIDTH_PIXELS = 1650  # 1650/8.5 ~= 194 DPI
+INCHES_ON_PAGE = 8.5  # A Letter (ANSI A) sized paper is 8.5 inches wide
+MIN_IMAGE_WIDTH_PIXELS = 1650  # Subreddit's threshold width. 1650/8.5 ~= 194 dots per inch (DPI)
 NUM_POSTS_TO_PROCESS = 10
 
 
