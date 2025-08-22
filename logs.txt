@@ -47,3 +47,4 @@
 [08-16 08:44] Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f11efb8e850>: Failed to establish a new connection: [Errno 101] Network is unreachable'))")) status: GET https://oauth.reddit.com/r/EngineeringResumes/new
 [08-17 05:32] REJECT, 1msiluo, 850, Fun-Ad83
 [08-18 10:29] APPROVE, 1mu0px2, 5100, KingBash0_0
+[08-22 06:17] APPROVE, 1mxe38r, 5100, IndependentHat7400
