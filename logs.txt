@@ -55,3 +55,4 @@
 [08-24 07:37] APPROVE, 1mz57j6, 5100, kldhooak
 [08-25 11:49] Retrying due to ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))) status: GET https://oauth.reddit.com/r/EngineeringResumes/new
 [08-25 03:56] APPROVE, 1mzuce5, 5100, Unable-Plan-7215
+[08-25 05:56] Retrying due to ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))) status: GET https://oauth.reddit.com/r/EngineeringResumes/new
