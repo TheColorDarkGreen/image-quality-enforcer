@@ -135,3 +135,4 @@
 [09-06 06:19] APPROVE, 1na6ptd, 5100, Comfortable_Essay469
 [09-07 05:25] REJECT, 1naz608, 1080, Top_Message_5194
 [09-08 05:56] APPROVE, 1nbuter, 5100, EskimoJoe1228
+[09-08 09:53] REJECT, 1nc11pf, 850, SoanrOR
