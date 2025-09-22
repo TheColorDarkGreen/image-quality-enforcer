@@ -155,3 +155,4 @@
 [09-19 11:39] REJECT, 1nlj1ox, 756, Soggy-Movie-4619
 [09-20 03:42] APPROVE, 1nlnx44, 5100, SquirrelGood
 [09-22 05:57] Retrying due to ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))) status: GET https://oauth.reddit.com/r/EngineeringResumes/new
+[09-22 08:55] UNABLE TO EXTRACT WIDTH FROM BODY TEXT, 1nnh7d3, Mohammed_Adil_18
