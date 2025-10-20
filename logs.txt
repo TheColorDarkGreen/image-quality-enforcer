@@ -257,3 +257,4 @@
 [10-17 06:41] UNABLE TO EXTRACT WIDTH FROM BODY TEXT, 1o8ublc, Temporary-Dot6391
 [10-18 09:59] APPROVE, 1oa8ow3, 5100, DesperateDoctor8780
 [10-20 09:55] Retrying due to 500 status: GET https://oauth.reddit.com/r/EngineeringResumes/new
+[10-20 10:46] Retrying due to 503 status: GET https://oauth.reddit.com/r/EngineeringResumes/new
