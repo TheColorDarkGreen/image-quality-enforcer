@@ -452,3 +452,4 @@
 [12-29 11:58] APPROVE, 1pykhri, 5100, chairmanfox
 [12-29 08:22] REJECT, 1pyx1i6, 665, Fierce_AssAssIN
 [01-05 01:07] REJECT, 1q47jhb, 850, bejonflame
+[01-07 08:37] REJECT, 1q6qwch, 850, YaksTheLegend
