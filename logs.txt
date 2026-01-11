@@ -454,3 +454,4 @@
 [01-05 01:07] REJECT, 1q47jhb, 850, bejonflame
 [01-07 08:37] REJECT, 1q6qwch, 850, YaksTheLegend
 [01-08 07:49] APPROVE, 1q7lwfb, 5063, AggressiveAd4573
+[01-11 07:22] Retrying due to ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Read timed out. (read timeout=16.0)")) status: GET https://oauth.reddit.com/r/EngineeringResumes/new
