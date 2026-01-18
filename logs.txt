@@ -471,3 +471,4 @@
 [01-18 10:11] APPROVE, 1qg4z26, 4961, nikos_kozi
 [01-18 08:48] Retrying due to 500 status: GET https://oauth.reddit.com/r/EngineeringResumes/new
 [01-18 08:48] Retrying due to 500 status: GET https://oauth.reddit.com/r/EngineeringResumes/new
+[01-18 08:59] Retrying due to 500 status: GET https://oauth.reddit.com/r/EngineeringResumes/new
